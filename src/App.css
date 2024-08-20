@@ -1,0 +1,23 @@
+body,
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+ul > li > a {
+  font-size: 18px;
+}
